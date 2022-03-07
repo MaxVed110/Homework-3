@@ -8,7 +8,7 @@ Console.WriteLine("Введите координаты второй точки �
 double[] arrayB = Console.ReadLine().Split(' ').Select(x => Convert.ToDouble(x)).ToArray();
 
 
-distance = Math.Pow(((arrayB[0]-arrayA[0])*(arrayB[0]-arrayA[0]) + (arrayB[1]-arrayA[1])*(arrayB[1]-arrayA[1]) + (arrayB[2]-arrayA[2])*(arrayB[2]-arrayA[2])), 0.5);
+distance = Math.Pow(((arrayB[0] - arrayA[0]) * (arrayB[0] - arrayA[0]) + (arrayB[1] - arrayA[1]) * (arrayB[1] - arrayA[1]) + (arrayB[2] - arrayA[2]) * (arrayB[2] - arrayA[2])), 0.5);
 distance = Math.Round(distance, 2);
 
 
